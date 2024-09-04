@@ -1,2 +1,4 @@
 # new-repo
-new-repo
+ html
+ css
+ sass

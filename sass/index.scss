@@ -1,0 +1,272 @@
+@import'./-global.scss';
+
+$prim: #ffff;
+
+$colorbl: black;
+$colorgr: rgb(125, 122, 122);
+$colorgb: rgb(49, 48, 48);
+$maincolor: rgba(249, 111, 111, 0.907);
+
+@mixin cont_ainer {
+    width: 80%;
+    margin: 0 10%;
+
+
+}
+
+@mixin fle($cont) {
+    display: flex;
+    justify-content: $cont;
+    padding: 10px;
+}
+
+@mixin h-a-style($siz) {
+    font-size: $siz;
+    text-transform: capitalize;
+    margin: 20px;
+
+}
+
+
+
+header {
+
+
+    background-color: $prim;
+
+}
+
+.logo img {
+    width: 100px;
+    color: rgba(249, 111, 111, 0.907);
+
+}
+
+.container {
+    @include cont_ainer;
+    @include fle(space-between);
+    background-color: $prim;
+
+}
+
+
+.logo {
+    @include fle(center);
+    background-color: $prim;
+}
+
+
+
+h1 {
+    @include h-a-style(46px)
+}
+
+
+
+nav {
+    @include fle(space-between);
+    background-color: $prim;
+}
+
+nav a {
+    @include h-a-style(40px);
+    text-decoration: none;
+
+    color: $colorgr ;
+}
+
+.f_section {
+
+
+    background: linear-gradient(rgba(249, 111, 111, 0.907), rgba(249, 111, 111, 0.907)),
+        url(/tmp_390bc437-8b17-4599-ab65-02eedf5be98e.jpeg );
+}
+
+.f_section .container {
+    @include cont_ainer;
+
+    background: linear-gradient(rgba(249, 111, 111, 0.907), rgba(249, 111, 111, 0.907)),
+        url(/tmp_390bc437-8b17-4599-ab65-02eedf5be98e.jpeg );
+}
+
+
+
+.f_section .container div {
+    text-align: center;
+
+}
+
+.f_section img {
+    width: 600px;
+    height: 700px;
+}
+
+.f_div {
+    padding-top: 40px
+}
+
+h2 {
+    @include h-a-style(80px);
+    color: $prim;
+    font-weight: normal;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.f_section p {
+    color: $prim;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.f_section button {
+    border: 1px solid $colorbl;
+    border-radius: 20px;
+    background-color: rgba(249, 111, 111, 0.907);
+    @include h-a-style(30px);
+    color: #fff;
+    padding: 20px;
+}
+
+.section-form {
+    background-color: $colorgb;
+
+}
+
+form {
+
+    @include cont_ainer;
+    @include fle(space-between);
+
+    input {
+        @include h-a-style(25px);
+        width: 25%;
+        height: 50px;
+        padding: 20px;
+
+
+    }
+}
+
+
+.inp {
+    background-color: rgba(249, 111, 111, 0.907);
+    padding-bottom: 20px;
+}
+
+
+.sc_div {
+    @include cont_ainer;
+    @include fle(space-between);
+
+    div {
+        border: 2px solid $maincolor;
+        text-align: center;
+        padding: 20px;
+        width: 23%;
+        height: 200px;
+        margin-top: 30px;
+
+
+    }
+}
+
+.color_div {
+    color: $prim;
+    background-color: $maincolor;
+}
+
+@mixin divh3($trans) {
+    color: $trans ;
+
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.color_div h3 {
+    @include divh3($prim)
+}
+
+.ff_div h3 {
+    @include divh3($maincolor);
+
+
+}
+
+@mixin divp {
+    color: $colorbl;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.color_div p {
+    @include divp();
+}
+
+.ff_div p {
+    @include divp();
+}
+
+.f_th_div {
+    @include cont_ainer;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.f_th_div h4 {
+    color: $maincolor;
+    padding: 30px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.f_th_div p {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.div_imges {
+    @include cont_ainer;
+    @include fle(space-between);
+    text-align: center;
+    margin-top: 30px;
+
+
+    div {
+        border: 1px solid $colorbl;
+        height: 500px;
+        width: 24%;
+
+        &:hover {
+            background-color: $maincolor
+        }
+
+        h5 {
+            @include divh3($colorbl);
+            padding: 20px;
+        }
+
+        span {
+            font-size: 26px;
+            padding: 10px;
+        }
+
+        p {
+            @include divp();
+            padding: 10px;
+        }
+    }
+
+    img {
+        width: 150px;
+        border-radius: 50%;
+    }
+}
+
+footer {
+    background-color: $maincolor;
+    height: 200px;
+}

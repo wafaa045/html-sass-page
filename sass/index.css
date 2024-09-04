@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+}
+
+.logo img {
+  width: 100px;
+  color: rgba(249, 111, 111, 0.907);
+}
+
+.container {
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: white;
+}
+
+h1 {
+  font-size: 46px;
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+}
+
+nav a {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin: 20px;
+  text-decoration: none;
+  color: rgb(125, 122, 122);
+}
+
+.f_section {
+  background: linear-gradient(rgba(249, 111, 111, 0.907), rgba(249, 111, 111, 0.907)), url(/tmp_390bc437-8b17-4599-ab65-02eedf5be98e.jpeg);
+}
+
+.f_section .container {
+  width: 80%;
+  margin: 0 10%;
+  background: linear-gradient(rgba(249, 111, 111, 0.907), rgba(249, 111, 111, 0.907)), url(/tmp_390bc437-8b17-4599-ab65-02eedf5be98e.jpeg);
+}
+
+.f_section .container div {
+  text-align: center;
+}
+
+.f_section img {
+  width: 600px;
+  height: 700px;
+}
+
+.f_div {
+  padding-top: 40px;
+}
+
+h2 {
+  font-size: 80px;
+  text-transform: capitalize;
+  margin: 20px;
+  color: white;
+  font-weight: normal;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.f_section p {
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.f_section button {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgba(249, 111, 111, 0.907);
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 20px;
+  color: #fff;
+  padding: 20px;
+}
+
+.section-form {
+  background-color: rgb(49, 48, 48);
+}
+
+form {
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+form input {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin: 20px;
+  width: 25%;
+  height: 50px;
+  padding: 20px;
+}
+
+.inp {
+  background-color: rgba(249, 111, 111, 0.907);
+  padding-bottom: 20px;
+}
+
+.sc_div {
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.sc_div div {
+  border: 2px solid rgba(249, 111, 111, 0.907);
+  text-align: center;
+  padding: 20px;
+  width: 23%;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.color_div {
+  color: white;
+  background-color: rgba(249, 111, 111, 0.907);
+}
+
+.color_div h3 {
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.ff_div h3 {
+  color: rgba(249, 111, 111, 0.907);
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.color_div p {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.ff_div p {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.f_th_div {
+  width: 80%;
+  margin: 0 10%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.f_th_div h4 {
+  color: rgba(249, 111, 111, 0.907);
+  padding: 30px;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.f_th_div p {
+  font-size: 28px;
+  padding: 20px;
+}
+
+.div_imges {
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+.div_imges div {
+  border: 1px solid black;
+  height: 500px;
+  width: 24%;
+}
+.div_imges div:hover {
+  background-color: rgba(249, 111, 111, 0.907);
+}
+.div_imges div h5 {
+  color: black;
+  font-size: 30px;
+  text-transform: capitalize;
+  padding: 20px;
+}
+.div_imges div span {
+  font-size: 26px;
+  padding: 10px;
+}
+.div_imges div p {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  padding: 10px;
+}
+.div_imges img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: rgba(249, 111, 111, 0.907);
+  height: 200px;
+}/*# sourceMappingURL=index.css.map */
